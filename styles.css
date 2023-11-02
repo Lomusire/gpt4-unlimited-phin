@@ -1,0 +1,95 @@
+/* Import Google font - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif !important;
+  background-color: #343541 !important;
+}
+
+button {
+  background-color: #6b6c7b !important;
+  color: #000000 !important;
+  border: none !important;
+  padding: 10px 20px !important;
+  text-align: center !important;
+  text-decoration: none !important;
+  display: inline-block !important;
+  font-size: 16px !important;
+  margin: 10px 5px !important;
+  cursor: pointer !important;
+}
+
+button:hover {
+  background-color: #19c37d !important;
+}
+
+/* Add other styles based on the ChatGPT design... */
+
+.chat-container {
+  overflow-y: auto !important;
+  max-height: 100vh !important;
+  padding-bottom: 150px !important;
+}
+
+.chat-container .chat.outgoing {
+  background: #E0E0E0 !important;
+  border: 1px solid #D9D9D9 !important;
+}
+
+.chat-container .chat.incoming {
+  background: #FFFFFF !important;
+  border: 1px solid #D9D9D9 !important;
+}
+
+.typing-container {
+  position: fixed !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  display: flex !important;
+  padding: 20px 10px !important;
+  justify-content: center !important;
+  background: #E0E0E0 !important;
+  border-top: 1px solid #D9D9D9 !important;
+}
+
+img[src="/images/phind_v2.svg"] {
+    content: url('https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg') !important;
+    width: 100px !important; /* Adjust as required */
+    height: 35px !important; /* Adjust as required */
+    display: inline-block !important;
+}
+
+
+input[type="text"] {
+  width: 100% !important;
+  height: 50px !important;
+  padding: 10px !important;
+  border: 1px solid #D9D9D9 !important;
+  border-radius: 5px !important;
+}
+
+.conversation-area {
+  width: 100% !important;
+  height: 80vh !important;
+  padding: 20px !important;
+  border: 1px solid #D9D9D9 !important;
+  border-radius: 5px !important;
+  overflow-y: auto !important;
+}
+
+.chat-bubble {
+  max-width: 70% !important;
+  padding: 10px !important;
+  border-radius: 15px !important;
+  margin-bottom: 10px !important;
+}
+
+.chat-bubble.outgoing {
+  background-color: #E0E0E0 !important;
+  align-self: flex-end !important;
+}
+
+.chat-bubble.incoming {
+  background-color: #FFFFFF !important;
+  align-self: flex-start !important;
+}

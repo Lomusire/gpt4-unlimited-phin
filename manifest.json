@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "GPT-4 Unlimited",
+  "description": "Experience the power of GPT-4 with our easy-to-install browser extension.",
+  "version": "1.0",
+  "permissions": ["activeTab", "storage", "cookies", "http://*/*", "https://*/*", "webRequest", "tabs"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": ["http://www.phind.com/*", "https://www.phind.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+  "icons": {
+    "16": "gpt4.png",
+    "48": "gpt4.png",
+    "128": "gpt4.png"
+  },
+  "host_permissions": ["http://www.phind.com/*", "https://www.phind.com/*", "https://gpt4.freecrypto.tech/*"]
+}
