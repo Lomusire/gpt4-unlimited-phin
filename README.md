@@ -51,3 +51,12 @@ Feel free to reach out if you have any questions or just want to chat!
 
 Discord: [Discord Server](https://discord.gg/jUDCaVPHJd)
 
+## Star History
+
+<a href="https://star-history.com/#Lomusire/gpt4-unlimited-phin&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=Lomusire/gpt4-unlimited-phin&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=Lomusire/gpt4-unlimited-phin&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=Lomusire/gpt4-unlimited-phin&type=Date" />
+  </picture>
+</a>
