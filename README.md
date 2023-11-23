@@ -3,6 +3,7 @@
 Unlock the power of AI in your browser with GPT-4 Unlimited for Phind! This Chrome extension provides free and unlimited access to the mighty GPT-4 AI model, right on Phind.com. Engage in captivating AI-driven web searches and elevate your browsing experience with the magic of AI at no cost! 💻🔍
 
 Join our Discord server: [Discord Server](https://discord.gg/jUDCaVPHJd)
+[Chrome Webstore](https://chromewebstore.google.com/detail/gpt-4-unlimited/jbmfbdofalifdmbbpfdokjmlojkjhcbe?hl=de)
 
 ## Features 🌟
 
